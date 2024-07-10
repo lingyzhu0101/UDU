@@ -88,7 +88,7 @@ If you find our work helpful, please consider citing:
 
 ## Additional Link
 
-We also recommend our previous Temporally Consistent Enhancer Network [TCE-Net](https://github.com/lingyzhu0101/low-light-video-enhancement.git). If you find our work helpful, please consider citing:
+We also recommend our Temporally Consistent Enhancer Network [TCE-Net](https://github.com/lingyzhu0101/low-light-video-enhancement.git). If you find our work helpful, please consider citing:
 
 ```bibtex
 @article{zhu2024temporally,
