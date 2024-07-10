@@ -10,7 +10,7 @@ Official Pytorch implementation of **Unrolled Decomposed Unpaired Learning for C
 [Shiqi Wang](https://scholar.google.com/citations?user=Pr7s2VUAAAAJ&hl=zh-CN)
 
 
-[[`Arxiv`]()] [[`Project Page`]()] [[`Github`](https://github.com/lingyzhu0101/UDU_ECCV)]
+[[`PDF`]()] [[`Project Page`]()] [[`Github`](https://github.com/lingyzhu0101/UDU_ECCV)]
 
 
 ## Overview
@@ -30,16 +30,14 @@ class="center">
 
 ## Quantitative Performance
 <p align="left">
-<img src="src/figures/main_performance_quantitative.png" width=80% height=80% 
+<img src="src/figures/main_performance_quantitative.png.png" width=80% height=80% 
 class="center">
 </p>
 
 
-## Dataset
+## Public Dataset
 
-We use the resized RGB image based on the SDSD dataset.
-
-Public Data (We follow suggestions from [SDSD](https://github.com/dvlab-research/SDSD))
+We use the resized RGB image based on the [SDSD](https://github.com/dvlab-research/SDSD) dataset.
 
 ## Installation
 
