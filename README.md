@@ -78,12 +78,13 @@ We adopt PSNR and SSIM as comparison criteria to evaluate the spatial quality of
 If you find our work helpful, please consider citing:
 
 ```bibtex
-@inproceedings{,
+@inproceedings{zhu2024unrolled,
   title={Unrolled Decomposed Unpaired Learning for Controllable Low-Light Video Enhancement},
   author={Lingyu Zhu, Wenhan Yang, Baoliang Chen, Hanwei Zhu, Zhangkai Ni, Qi Mao, and Shiqi Wang},
   booktitle={European Conference on Computer Vision (ECCV)},
   year={2024}
 }
+
 ```
 
 ## Additional Link
