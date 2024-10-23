@@ -12,7 +12,6 @@ Official Pytorch implementation of **Unrolled Decomposed Unpaired Learning for C
 
 [[`Arxiv`](http://arxiv.org/abs/2408.12316)] [[`Project Page`]()] [[`Poster`](src/figures/ECCV_poster.png)] [[`Video`](https://www.youtube.com/watch?v=gn_IB1-FEY8&t=2s)]
 
-
 ## Overview
 <p align="left">
 <img src="src/figures/framework.png" width=80% height=80% 
@@ -34,6 +33,12 @@ class="center">
 class="center">
 </p>
 
+
+## TODO List
+This repository is still under active construction:
+- [x] Release training and testing codes
+- [ ] Release pretrained models
+- [ ] Clean the code
 
 ## Public Dataset
 
