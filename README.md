@@ -109,4 +109,6 @@ We also recommend our Temporally Consistent Enhancer Network [TCE-Net](https://g
 
 ## Acknowledgement
 
- - The optical flow model is adopted, and the trained model can be downloaded from the link [RAFT](https://github.com/princeton-vl/RAFT). We thank all authors for presenting such an excellent work.
+ - The optical flow model is adopted, and the trained model can be downloaded from the link [RAFT](https://github.com/princeton-vl/RAFT). 
+ - The quality model is based on [pyiqa](https://github.com/chaofengc/IQA-PyTorch/).
+ - We thank all authors for presenting such an excellent work.
