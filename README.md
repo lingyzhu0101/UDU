@@ -56,7 +56,7 @@ source activate UDU
 Clone the repo and install the complementary requirements:
 ```
 cd $HOME
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 
 ## Example Usage
