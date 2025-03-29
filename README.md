@@ -49,8 +49,8 @@ We use the resized RGB image based on the [SDSD](https://github.com/dvlab-resear
 First, install Python 3. We advise you to install Python 3 and PyTorch with Anaconda:
 
 ```
-conda create --name py36 python=3.6
-source activate py36
+conda create --name UDU python=3.7
+source activate UDU
 ```
 
 Clone the repo and install the complementary requirements:
