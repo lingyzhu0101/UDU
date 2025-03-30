@@ -37,8 +37,8 @@ class="center">
 ## TODO List
 This repository is still under active construction:
 - [x] Release training and testing codes
+- [x] Clean the code
 - [ ] Release pretrained models
-- [ ] Clean the code
 
 ## Public Dataset
 
