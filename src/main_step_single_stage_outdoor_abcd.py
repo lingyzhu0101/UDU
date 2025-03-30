@@ -12,6 +12,7 @@ from munch import Munch
 from data_loader_outdoor_ab import get_train_loader, get_val_loader
 
 
+
 def main(args):
     # for fast training.
     torch.backends.cudnn.benchmark = True

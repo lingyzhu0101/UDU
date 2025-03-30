@@ -27,6 +27,7 @@ import utils
 from pytorch_msssim import ssim
 import pyiqa
 
+
 class Trainer(object):
     def __init__(self, loaders, args):
         # data loader
@@ -70,6 +71,11 @@ class Trainer(object):
         
         # set quality metric second stage
         brisque_metric = pyiqa.create_metric('brisque').to(self.device)
+        
+        
+        #import ipdb
+        #ipdb.set_trace()
+        
         nima_model = NIMA()
         nima_model.load_state_dict(torch.load('./metrics/NIMA/pretrain-model.pth'))
         nima_model.to(self.device).eval()
@@ -291,7 +297,7 @@ class Trainer(object):
                 preds = nima_model(synthetic_references[i, :, :, :].unsqueeze(0)).data.cpu().numpy()[0]
                 for j, e in enumerate(preds, 1):
                     nima_score[i] += j * e
-                preds_brisque = brisque_metric(synthetic_references[i, :, :, :].unsqueeze(0))
+                preds_brisque = brisque_metric(denorm(synthetic_references[i, :, :, :].unsqueeze(0)))
                 brisque_score[i] = preds_brisque
                 
             nima_score = nima_score.view(b, -1)    
