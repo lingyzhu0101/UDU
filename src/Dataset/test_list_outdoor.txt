@@ -1,0 +1,13 @@
+outdoor_pair1
+outdoor_pair5
+outdoor_pair14
+outdoor_pair36
+outdoor_pair46
+outdoor_pair48
+outdoor_pair49
+outdoor_pair60
+outdoor_pair62
+outdoor_pair63
+outdoor_pair66
+outdoor_pair75
+outdoor_pair76
