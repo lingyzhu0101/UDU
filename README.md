@@ -44,6 +44,14 @@ This repository is still under active construction:
 
 We use the resized RGB image based on the [SDSD](https://github.com/dvlab-research/SDSD) dataset.
 
+```shell
+─┬─ Dataset/
+ ├─┬─ SDSD_dataset/
+ │ └─── indoor_and_outdoor
+ └─┬─ unpair_dataset/
+   └─── fiveK_MIT
+```
+
 ## Installation
 
 First, install Python 3. We advise you to install Python 3 and PyTorch with Anaconda:
