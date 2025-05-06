@@ -42,7 +42,8 @@ This repository is still under active construction:
 
 ## Public Dataset
 
-We use the resized RGB image based on the [SDSD](https://github.com/dvlab-research/SDSD) dataset.
+- We use the resized RGB image based on the [SDSD](https://github.com/dvlab-research/SDSD) dataset.
+- We follow the instructions [UEGAN](https://github.com/eezkni/UEGAN) to prepare the MIT-Adobe FiveK dataset.
 
 ```shell
 ─┬─ Dataset/
